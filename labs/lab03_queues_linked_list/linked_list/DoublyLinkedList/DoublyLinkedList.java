@@ -1,4 +1,3 @@
-
 public class DoublyLinkedList {
     Node head;
 
@@ -34,5 +33,6 @@ public class DoublyLinkedList {
         dll.append(20);
         dll.append(30);
         dll.printList();  // Output: 10 20 30
+        System.out.println(dll.head.next.data);
     }
 }
